@@ -29,7 +29,7 @@ void setup() {
     }
     String fileName = file.name();
     if (fileName.endsWith(".jpg")) {
-      MyPictures_string[imageCount] = "/img/" + fileName;
+      MyPictures_string[imageCount] = imageFolder_str + "/" + fileName;
       imageCount++;
     }
     file.close();
